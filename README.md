@@ -9,3 +9,7 @@ This project contains failing tests. Each test has a level called out in test de
 ## Execute tests using command line
 
 Please add instructions here
+1. Get the Project location
+2. Open Command Prompt and type cd and enter the Project location
+3. Use Maven commands to validate, clean and complile the code
+4. Enter mvn test command to run all the tests

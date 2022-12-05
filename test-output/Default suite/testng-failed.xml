@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sdet.CartTests">
+      <class name="CartTests">
         <methods>
           <include name="shouldAddItemCart"/>
+          <include name="shouldClearCart"/>
         </methods>
-      </class> <!-- com.sdet.CartTests -->
+      </class> <!-- CartTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
