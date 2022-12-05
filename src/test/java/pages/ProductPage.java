@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ProductPage {
 
-    @FindBy(how = How.NAME, using = "add")
+    @FindBy(how = How.XPATH, using = "//button[@name='add']")
     WebElement addToCartButton;
 
     public ProductPage(WebDriver driver) {

@@ -14,10 +14,10 @@ public class HomePageTests {
 
         driver.get("https://testvagrant.myshopify.com/");
         String t = driver.getTitle();
-
+System.out.println(t);
         driver.quit();
 
-        Assert.assertEquals(t, "myshopify.com");
+        Assert.assertEquals(t, "mykart");
 
     }
 
